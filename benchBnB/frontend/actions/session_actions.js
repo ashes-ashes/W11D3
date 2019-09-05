@@ -35,3 +35,6 @@ export const signup = (user) => dispatch => (
     .then((user) => dispatch(receiveCurrentUser(user)))
 );
 
+window.signup = signup;
+window.login = login;
+window.logout = logout;

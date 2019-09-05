@@ -1,3 +1,4 @@
+
 export const signup = (user) => {
   return $.ajax({
     method: "POST",
@@ -20,6 +21,9 @@ export const logout = () => {
     url: "api/session",
   });
 };
+
+
+
 
 window.signup = signup;
 window.login = login;
